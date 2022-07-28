@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MoonTech.com</title>
-    <!-- favicon -->
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <!------------- favicon --------------->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
-    <!-- fontawesome kit link  -->
+    <!------------- fontawesome kit link  --------------->
     <script src="https://kit.fontawesome.com/8a38041748.js" crossorigin="anonymous"></script>
     <!------------------------------------------
          bootstrap css cdn link 
     ------------------------------------------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-        <!----------------- custom css------------ -->
-        <link rel="stylesheet" href="style.css">
+    <!------------------- custom css--------------------------->
+    <link rel="stylesheet" href="style.css">
 
   </head>
   <body>
@@ -24,8 +24,8 @@
             --------------------------------------->
         <nav class="navbar fixed-top navbar-expand-lg bg-white ">
             <div class="container">
-              <a class="navbar-brand" href="#">
-                <h4 class="text-bolder" >MoonTech</h4>
+              <a class="navbar-brand" href="#footer">
+                <h4 class="text-bolder">MoonTech</h4>
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,22 +36,22 @@
                     <a class="nav-link" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#feedback">Feedback</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#course" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Courses
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Web Development</a></li>
+                      <li><a class="dropdown-item" href="#course">Web Development</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Graphics Design</a></li>
+                      <li><a class="dropdown-item" href="#course">Graphics Design</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+                      <li><a class="dropdown-item" href="#course">UI/UX Design</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#footer">Contact Us</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -80,7 +80,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-12">
-                                <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid" alt="...">
+                                <img src="images/cover/cover-1.png" class="d-block w-100 h-100 img-fluid" alt="...">
                             </div>
                         </div>
                       </div>
@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-12">
-                                <img src="images/cover/cover-2.jpg" class="d-block w-100 img-fluid" alt="...">
+                                <img src="images/cover/cover-2.jpg" class="d-block w-100 h-100 img-fluid" alt="...">
                             </div>
                         </div>
                       </div>
@@ -111,7 +111,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-12">
-                                <img src="images/cover/cover-3.jpg" class="d-block w-100 img-fluid" alt="...">
+                                <img src="images/cover/cover-3.jpg" class="d-block w-100 h-100 img-fluid" alt="...">
                             </div>
                         </div>
                       </div>
@@ -131,7 +131,7 @@
     <main class="m-0 p-0">
         
         <section class="mt-5 text-center">
-            <h2>Learn about our popular <br> courses</h2>
+            <h2 id="course">Learn about our popular <br> courses</h2>
             <p>Click on our course sector for details about the course.
             </p>
         </section>
@@ -142,9 +142,9 @@
                   <div class="col-lg-6 col-md-12 col-sm-12 ">
                     <div class="row g-0 ">
                         <div class="col-lg-4 col-md-4 col-sm-12">
-                            <img class="img-fluid" src="images/course/course-1.png" alt="">
+                            <img class="img-fluid w-100" src="images/course/course-1.png">
                         </div>
-                        <div class="col-lg-8 col-md-8 col-sm-12 text-start ps-4 pt-3 border border-start-0 rounded-end">
+                        <div class="col-lg-8 col-md-8 col-sm-12 text-start ps-4 pt-3 pe-3 border  rounded ">
                             <h5>Fundamental Of UI/UX Design</h5>
                             <p> <small>If you want to build your career on UI/UX then you join this group.
                             </small></p>
@@ -155,10 +155,10 @@
                   </div>
                   <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="row g-0 ">
-                        <div class="col-4">
-                            <img class="img-fluid" src="images/course/course-2.png" alt="">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img class="img-fluid w-100" src="images/course/course-2.png" alt="">
                         </div>
-                        <div class="col-8 text-start ps-4 pt-3 border border-start-0 rounded-end">
+                        <div class="col-lg-8 col-md-8 col-sm-12 text-start ps-4 pt-3 pe-3 border  rounded">
                             <h5>Javascript Basic to advanced</h5>
                             <p> <small> If you want to build your career on Javascript then you join this group.</small></p>
                             <h6 class="">Price : 22$
@@ -168,11 +168,11 @@
                   </div>
                   <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="row g-0 ">
-                        <div class="col-4">
-                            <img class="img-fluid" src="images/course/course-3.png" alt="">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img class="img-fluid w-100" src="images/course/course-3.png" alt="">
                         </div>
-                        <div class="col-8 text-start ps-4 pt-3 border border-start-0 rounded-end">
-                            <h5>Fullstack Web Development</h5>
+                        <div class="col-lg-8 col-md-8 col-sm-12 text-start ps-4 pt-3 pe-3 border  rounded">
+                            <h5 >Fullstack Web Development</h5>
                             <p> <small>If you want to build your career on Web Development then you join this group.</small></p>
                             <h6 class="">Price : 24$
                             </h6>
@@ -181,10 +181,10 @@
                   </div>
                   <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="row g-0 ">
-                        <div class="col-4">
-                            <img class="img-fluid" src="images/course/course-4.png" alt="">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img class="img-fluid w-100" src="images/course/course-4.png" alt="">
                         </div>
-                        <div class="col-8 text-start ps-4 pt-3 border border-start-0 rounded-end">
+                        <div class="col-lg-8 col-md-8 col-sm-12 text-start ps-4 pt-3 border rounded">
                             <h5>Digital Marketing</h5>
                             <p> <small>If you want to build your career on Digital Marketing then you join this group.</small></p>
                             <h6 class="">Price : 20$
@@ -194,10 +194,10 @@
                   </div>
                   <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="row g-0 ">
-                        <div class="col-4">
-                            <img class="img-fluid" src="images/course/course-5.png" alt="">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img class="img-fluid w-100" src="images/course/course-5.png" alt="">
                         </div>
-                        <div class="col-8 text-start ps-4 pt-3 border border-start-0 rounded-end">
+                        <div class="col-lg-8 col-md-8 col-sm-12 text-start ps-4 pt-3 border  rounded">
                             <h5>Photography Basic Rules</h5>
                             <p> <small>If you want to build your career on Photography then you join this group.</small></p>
                             <h6 class="">Price : 22$
@@ -207,10 +207,10 @@
                   </div>
                   <div class="col">
                     <div class="row g-0 ">
-                        <div class="col-4">
-                            <img class="img-fluid" src="images/course/course-6.png" alt="">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img class="img-fluid w-100" src="images/course/course-6.png" alt="">
                         </div>
-                        <div class="col-8 text-start ps-4 pt-3 border border-start-0 rounded-end">
+                        <div class="col-lg-8 col-md-8 col-sm-12 text-start ps-4 pt-3 border  rounded">
                             <h5>Motion Graphics</h5>
                             <p> <small>If you want to build your career on Motion Graphics then you join this group.</small></p>
                             <h6 class="">Price : 24$
@@ -232,9 +232,8 @@
                 <div class="col-lg-7 col-md-7 col-sm-12 bg-secondary text-light rounded-end d-flex align-items-center p-5">
                     <div>
                         <h2>Explore The elearning Institute</h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
-                        randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
-                        <p>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined</p>
+                        <p>As we’ve pointed out, web developers make a competitive salary compared to other industries. The high earning potential often piques the interest of many computer science prospective students, but the creativity and growth potential are what really seals the deal for most.</p>
+                        <p>It’s always important to consider the pros and cons of any new career path. Web development has a number of pros: High earning potential, opportunity for growth, and flexibility are usually top of mind for most who get into the industry. </p>
                         <div class="row">
                             <div class="col-4">
                                 <h2 class="fw-bold">3.2K+</h2>
@@ -299,39 +298,30 @@
             <h1>Meet Our Successfull <br> Students</h1>
             <p>We have many successful students, here is a list of some of     them</p>
             <div class="row g-4 mt-1">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                        
-                            <img class="img-fluid" src="images/student/student-1.png" alt="">
-            
-                            <div class="p-3">
-                                <h5>Amanullah</h5>
-                                <small>Web Developer</small>
-                            </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">   
+                     <img class="img-fluid w-100" src="images/student/student-1.png" alt="">
+                    <div class="p-3">
+                      <h5>Amanullah</h5>
+                      <small>Web Developer</small>
                     </div>
-                    
-                
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    
-                        <img class="img-fluid" src="images/student/student-2.png" alt="">
-                    
+                </div>
+                      
+                <div class="col-lg-3 col-md-6 col-sm-12"> 
+                    <img class="img-fluid w-100" src="images/student/student-2.png" alt="">
                     <div class="p-3">
                         <h5>Tasnim</h5>
                         <small>UI/UX designer</small>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    
-                        <img class="img-fluid" src="images/student/student-3.png" alt="">
-                    
+                        <img class="img-fluid w-100" src="images/student/student-3.png" alt="">
                     <div class="p-3">
                         <h5>Muntasir</h5>
                         <small>Graphics designer</small>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    
-                        <img class="img-fluid" src="images/student/student-4.png" alt="p-3">
-                    
+                        <img class="img-fluid w-100" src="images/student/student-4.png" alt="p-3">
                     <div class="p-3">
                         <h5>Arisha</h5>
                         <small>Motion designer</small>
@@ -344,7 +334,7 @@
         </section>
         <!---------- Successfull Students end ----------->
         <!----------- student feedback start here-------->
-        <section class="container">
+        <section id="feedback" class="container">
             <div class="text-center">
                 <h1>Some Students Feedback</h1>
                 <p>Feedback from some students is presented here.
@@ -500,11 +490,11 @@
         <!----------- company end here-------------->
     </main>
     <!-------------------- main section end here ------------------------>
-    <!--------------- frequently ask end here----------->
+   
         <!--------------- footer start here----------->
         <footer> 
             <section class="bg-secondary py-5 mt-5 text-center text-light">
-                <h2>MoonTech</h2>
+                <h2 id="footer">MoonTech</h2>
                 <p><small>Office 11, South Senpara, Mirpur-2, Dhaka-1216 <br>Bangladesh</p>
                 <p>Privacy Ploicy | Terms of use</small></p>
                 <div class="text-light">
