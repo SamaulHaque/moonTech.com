@@ -132,7 +132,7 @@
             </p>
         </section>
         <!----------- courses section start here ----------------->
-        <section class="corses mt-5 mb-5">
+        <section class="corses my-5">
             <div class="container text-center">
                 <div class="row gy-4 ">
                   <div class="col-lg-6 col-md-12 col-sm-12 ">
@@ -220,7 +220,7 @@
         <p class="text-center mb-5"><button class="btn btn-secondary">See More Courses</button></p>   
         <!----------- courses section end ----------------->
         <!------------- Explore the learning start here --------->
-        <section class="container mt-5 mb-5">
+        <section class="container my-5">
             <div class="row g-0">
                 <div class="col-lg-5 col-md-5 col-sm-12">
                     <img class="img-fluid w-100 h-100" src="images/working.png" alt="">
@@ -253,19 +253,104 @@
             </div>
         </section>
         <!------------- Explore the learning end here --------->
-        <!------------- ready to join star here ------------------>
-        <section class="container bg-secondary p-5 rounded mb-5">
-            <div class="row  text-light d-flex align-items-center justify-content-center">
-                <div class="col-lg-8 col-md-12 col-sm-12 text-lg-start text-md-center text-sm-center">
+        <!------------- ready to join start here ------------------>
+        <section class="container bg-secondary p-5 rounded my-5">
+            <div class="row  d-flex align-items-center justify-content-center">
+                <div class="col-lg-8 col-md-12 col-sm-12 text-lg-start text-md-center text-sm-center text-light">
                     <h1>Ready to join?</h1>
                     <p><small>It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</small></p>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 text-center ">
-                    <button class="btn btn-light">Register Now</button>
+                    <div class="m-4">
+                        <!-- Button HTML (to Trigger Modal) -->
+                        <a href="#myModal" role="button" class="btn btn-lg btn-light" data-bs-toggle="modal">Register Now</a>
+                    
+                        <!-- Modal HTML -->
+                        <div id="myModal" class="modal fade" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Do you want to register now?
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Do you want to save changes to this document before closing?</p>
+                                        <p class="text-secondary"><small>If you don't save, your changes will be lost.</small></p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!------------- ready to join end here ------------------>
+        <!--------------- frequently ask start here----------->
+        <section class="container my-5">
+            <div class="text-center">
+                <h1>Frequently Asked Questions</h1>
+                <p><small>It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout</small></p>
+            </div>
+            <!------acordina start------>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <h5>What are the difference between grid and flexbox?</h5>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                    1. Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. <br>
+
+                    2.Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <h5>What are the difference between bootstrap and tailwind?</h5>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        1. Tailwind offers predesigned widgets to build a site from scratch with fast UI development. <br>
+                        2. Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. <br>
+                        3. Websites created using Tailwind CSS are much more customizable. <br>
+                        4. Websites created with Bootstraps are known for their responsiveness and flawless design, but the looks are generic and similar.
+
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                     <h5> What is CSS box model?</h5>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">When laying out a document, the browser's rendering engine represents each element as a rectangular box according to the standard CSS basic box model. CSS determines the size, position, and properties (color, background, border size, etc.) of these boxes.Every box is composed of four parts (or areas), defined by their respective edges: the content edge, padding edge, border edge, and margin edge.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#four" aria-expanded="false" aria-controls="four">
+                       <h5>What is a semantic tagh?</h5>
+                      </button>
+                    </h2>
+                    <div id="four" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a <p> tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them.On the flip side of this equation, tags such as <b> and <i> are not semantic. They define only how the text should look (bold or italic), and don't provide any additional meaning to the markup.div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+        <!--------------- frequently ask end here----------->
+
     </main>
     <!-------------------- main section end here ------------------------>
     
